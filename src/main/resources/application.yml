@@ -1,0 +1,7 @@
+reproduce-no-converter-error: true
+
+spring.flyway.enabled: ${reproduce-no-converter-error}
+
+jwt:
+  private-key: classpath:rsa_private.pem
+  public-key: classpath:rsa_public.pem
